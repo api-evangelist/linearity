@@ -1,0 +1,20 @@
+# Linearity
+
+> Linearity is an AI-powered design and animation software platform. It brings professional design and animation tools to everyone, featuring Linearity Curve (vector design) and Linearity Move (animation).
+
+## Core Products & Features
+
+- **Linearity Curve**: A powerful vector design tool featuring advanced vector editing, path tools, and node control. Formerly known as Vectornator.
+- **Linearity Move**: An innovative animation software that turns static designs into motion graphics instantly with Auto-Animate and keyframe control.
+- **AI Design Generator**: Create entire marketing campaigns, social posts, and templates from a simple text prompt.
+- **AI Vector Generator**: Generate fully editable vector illustrations and paths using text prompts.
+- **Auto-Resize**: Instantly adapt designs and animations to any social media layout or resolution.
+- **Collaborative Workspaces**: Shared team assets, folder structures, and permission roles.
+
+## Main Sitemap
+
+- [Home](/) - Introduction to the Linearity platform, products, and core AI capabilities.
+- [FAQ](/faq) - Frequently asked questions about pricing, features, and platform updates.
+- [Blog](/blog) - Design tips, product launch announcements, and marketing case studies.
+- [Academy](/academy) - Step-by-step video tutorials and articles to learn Curve and Move.
+- [Templates](/templates) - Pre-made, fully customizable design templates for all channels.

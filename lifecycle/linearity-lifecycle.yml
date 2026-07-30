@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.linearity.io/
+notes: >-
+  Linearity ships end-user design and animation applications (Linearity Curve,
+  Linearity Move) plus a web workspace. No public HTTP API, developer portal, or
+  API versioning policy was found as of this probe, so the lifecycle captured here
+  is the product/service lifecycle rather than an API contract lifecycle.
+versioning:
+  scheme: semver
+  applies_to: application releases (Linearity Curve / Linearity Move)
+  current: '6.11'
+  docs: https://www.linearity.io/whats-new/
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No published deprecation or sunset policy found.
+sla:
+  url: null
+  uptime_target: null
+  notes: No public SLA or uptime commitment found outside the Enterprise plan.
+status_page: https://status.linearity.io/
+status_page_provider: Better Stack
+status_page_title: Linearity GmbH status
+deprecated_operations: []

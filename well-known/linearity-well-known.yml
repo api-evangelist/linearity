@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+host: https://www.linearity.io
+result: none
+catch_all_detected: true
+catch_all_evidence: >-
+  The host answers every unknown path with HTTP 200 and the site's HTML shell
+  (verified with a control request to /.well-known/zzz-not-real-xyz, which also
+  returned 200 + HTML). Status codes alone are therefore not a reliable signal on
+  this host; each response body was inspected. No /.well-known/ path returned an
+  actual discovery document.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  document: false
+  body: html-catch-all
+- path: /.well-known/openid-configuration
+  status: 200
+  document: false
+  body: html-catch-all
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  document: false
+  body: html-catch-all
+- path: /.well-known/api-catalog
+  status: 200
+  document: false
+  body: html-catch-all
+- path: /.well-known/ai-plugin.json
+  status: 200
+  document: false
+  body: html-catch-all
+related:
+- path: /llms.txt
+  status: 200
+  document: true
+  file: ../llms/linearity-llms.txt
+  note: Genuine llms.txt served by the same host; captured verbatim under llms/.
