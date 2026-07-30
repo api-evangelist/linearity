@@ -1,22 +1,51 @@
 aid: linearity
 name: Linearity
-description: 'Linearity is a company surfaced as a portfolio company of eqt-ventures, hv-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: design-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Linearity GmbH is a Berlin-based design-technology company building
+  AI-assisted design and animation software for individuals, marketing teams, and
+  enterprises. Its two flagship products are Linearity Curve, a professional vector
+  design and graphic art tool formerly released as Vectornator, and Linearity Move,
+  an animation tool that turns static designs into motion graphics with Auto-Animate
+  and keyframe control. The platform adds an AI Design Generator that produces entire
+  marketing campaigns, social posts, ads, and templates from a text prompt as fully
+  editable vector files rather than flat images, along with an AI Vector Generator,
+  Auto-Resize for adapting assets across channels, brand-kit management, and
+  collaborative team workspaces with role-based permissions. Products ship on macOS
+  and iOS with a web workspace. Linearity publishes no public HTTP API, developer
+  portal, or SDKs as of July 2026; it does publish an llms.txt, dated release notes,
+  a help center, and a public status page.'
 url: https://raw.githubusercontent.com/api-evangelist/linearity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a.storyblok.com/f/197805/1200x630/85c30905d6/img.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - eqt-ventures
 - hv-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Design Tech
+- Graphic Design
+- Vector Graphics
+- Animation
+- Motion Graphics
+- Artificial Intelligence
+- Creative Tools
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,42 @@ maintainers:
 common:
 - type: Website
   url: https://www.linearity.io/
+- type: Blog
+  url: https://www.linearity.io/blog/
+- type: Pricing
+  url: https://www.linearity.io/pricing/
+- type: SignUp
+  url: https://www.linearity.io/download/
+- type: TermsOfService
+  url: https://www.linearity.io/policies/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.linearity.io/policies/privacy-policy/
+- type: Support
+  url: https://www.linearity.io/contact-support/
+- type: HelpCenter
+  url: https://support.linearity.io/docs
+- type: Documentation
+  url: https://support.linearity.io/docs
+- type: GettingStarted
+  name: Linearity Academy
+  url: https://www.linearity.io/academy/
+- type: Community
+  url: https://www.linearity.io/community/
+- type: StatusPage
+  url: https://status.linearity.io/
+- type: ChangeLog
+  url: https://www.linearity.io/whats-new/
+- type: ChangeLog
+  name: Linearity release notes (captured)
+  url: changelog/linearity-changelog.yml
+- type: Lifecycle
+  url: lifecycle/linearity-lifecycle.yml
+- type: LLMsTxt
+  url: llms/linearity-llms.txt
+- type: DomainSecurity
+  url: security/linearity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
