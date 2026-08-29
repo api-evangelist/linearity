@@ -14,6 +14,17 @@ description: 'Linearity GmbH is a Berlin-based design-technology company buildin
   portal, or SDKs as of July 2026; it does publish an llms.txt, dated release notes,
   a help center, and a public status page.'
 url: https://raw.githubusercontent.com/api-evangelist/linearity/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
