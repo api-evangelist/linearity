@@ -1,0 +1,77 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.linearity.io/pricing/
+sources:
+- https://www.linearity.io/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Consumer/business design SaaS with credit-based AI allowances; Enterprise is quote-only. Free tier
+  is hosted, not self-hosted.
+plan_count: 8
+currency: USD
+plans:
+- name: Free
+  price_text: Free
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 250 introductory credits, 1 brand, 5 GB of cloud storage
+- name: Pro
+  price_text: $ 10
+  price: 10
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 800 credits / month
+- name: Pro (billed annually)
+  price_text: $ 8
+  price: 8
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 800 credits / month, billed annually, tax included
+- name: Studio
+  price_text: $ 30
+  price: 30
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Starting from 3,250 credits / month, 100 GB cloud storage
+- name: Studio (billed annually)
+  price_text: $ 25
+  price: 25
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Starting from 3,250 credits / month
+- name: Business
+  price_text: $ 80
+  price: 80
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Starting from 6,500 credits / month, 500 GB cloud storage
+- name: Business (billed annually)
+  price_text: $ 67
+  price: 67
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Starting from 6,500 credits / month
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Larger AI credit allowance, unlimited cloud storage, SSO
+rate_limit_statements:
+- Access to Linearity Curve and Move with usage limits
