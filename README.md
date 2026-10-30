@@ -64,24 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Linearity GmbH is a Berlin-based design-technology company building AI-assisted design and animation software. Its flagship products are **Linearity Curve** (professional vector design, formerly Vectornator) and **Linearity Move** (animation and motion graphics), joined by an AI Design Generator that produces editable campaign assets from a text prompt.
+Linearity GmbH is a Berlin-based design-technology company building AI-assisted design and animation software for individuals, marketing teams, and enterprises. Its two flagship products are Linearity Curve, a professional vector design and graphic art tool formerly released as Vectornator, and Linearity Move, an animation tool that turns static designs into motion graphics with Auto-Animate and keyframe control. The platform adds an AI Design Generator that produces entire marketing campaigns, social posts, ads, and templates from a text prompt as fully editable vector files rather than flat images, along with an AI Vector Generator, Auto-Resize for adapting assets across channels, brand-kit management, and collaborative team workspaces with role-based permissions. Products ship on macOS and iOS with a web workspace. Linearity publishes no public HTTP API, developer portal, or SDKs as of July 2026; it does publish an llms.txt, dated release notes, a help center, and a public status page.
 
-Website: https://www.linearity.io/
+**Areas:** Company · Design Tech · Graphic Design · Vector Graphics · Animation · Motion Graphics · Artificial Intelligence · Creative Tools · Software-as-a-Service
 
-## API surface
+## Linearity on APIs.io
 
-Linearity publishes **no public HTTP API, developer portal, or SDKs** as of July 2026. Probes of `/developers/`, `/api/`, `/docs/`, `api.linearity.io`, and `developer.linearity.io` found nothing; the help center documents only end-user features. Note that `www.linearity.io` answers every unknown path with HTTP 200 and an HTML shell, so status codes alone are not a reliable signal on this host — response bodies were inspected.
+Everything profiled for Linearity is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/linearity/](https://apis.io/providers/linearity/)** — or go straight to one of the APIs or properties below.
 
-There is no GitHub organization for the company (`github.com/linearity` is an unrelated individual), and no first-party packages were found on npm or PyPI.
+### Published properties
 
-## Captured artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File | Method |
-|---|---|---|
-| llms.txt | `llms/linearity-llms.txt` | searched (verbatim) |
-| Changelog | `changelog/linearity-changelog.yml` | searched |
-| Lifecycle | `lifecycle/linearity-lifecycle.yml` | searched |
-| Well-Known | `well-known/linearity-well-known.yml` | searched (none found) |
-| Domain security | `security/linearity-domain-security.yml` | probed |
+#### Security (1)
 
-Backed by: eqt-ventures, hv-capital
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Linearity Domain Security](https://apis.io/security/linearity/linearity-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Linearity Plans Pricing](https://apis.io/plans/linearity/linearity-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.linearity.io/)
+- [Documentation](https://support.linearity.io/docs)
+- [Getting started](https://www.linearity.io/academy/)
+- [Pricing](https://www.linearity.io/pricing/)
+- [Sign up](https://www.linearity.io/download/)
+- [Support](https://www.linearity.io/contact-support/)
+- [Changelog](https://www.linearity.io/whats-new/)
+- [Blog](https://www.linearity.io/blog/)
+- [Terms of service](https://www.linearity.io/policies/terms-of-use/)
+- [Privacy policy](https://www.linearity.io/policies/privacy-policy/)
+- [Status](https://status.linearity.io/)
+
+## API Evangelist rating
+
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/linearity/](https://apis.io/providers/linearity/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Linearity: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/linearity/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
